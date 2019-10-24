@@ -19,12 +19,6 @@ classifier2 = classifier1.transpose()
 t = classifier2['Number_order'].sum()
 classifier2['%oftotalorders'] = round((classifier2['mean_order_quantity']/t*100),10)
 
-#mean order quantity vs mean demand
-
-
-
-
-print(classifier2)
 
 
 
@@ -33,17 +27,7 @@ print(classifier2)
 
 
 
-#data1['totalOrders']= data1['Date'].str.len()
 
 
 
 
-
-
-
-#average lead time per order
-
-#time between orders
-
-
-#supplier % of inventory
