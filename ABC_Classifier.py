@@ -8,20 +8,7 @@ Id = Item SKU number
 Date = date of the purchase
 Quantity = quantity of items purchased for each order
 Currency = currency used in the transaction
-NetAmount = transaction amount 
-
-
-This code takes a data organized as stated above, and it classifies the sku in 3 classes. 
-class A
-class B
-class C
-class D
-
-class A takes the top 60% of the items 
-class B takes the remaining 30% of the items
-class C takes the remaining items.
-
-It gives out an ABCD matrix with the following information about inventory:
+NetAmount = transaction amount
 
 - the class
 - the quantity of items in that class
