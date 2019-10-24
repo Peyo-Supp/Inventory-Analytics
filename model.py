@@ -8,6 +8,7 @@ import math as m
 """
 this calculate the Re-order point and the safety stock type 1  necessary for each item.
 
+future improvement will be made to include a simulation for each class and for different policies
 
 """
 
